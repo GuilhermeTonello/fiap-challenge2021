@@ -1,0 +1,48 @@
+body {
+    background-color: var(--gray);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1rem;
+
+    margin-top: 2rem;
+}
+
+div.wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.panel {
+    background-color: var(--white);
+
+    margin: 2rem 1rem;
+
+    border-radius: 0.5rem;
+}
+
+div.panel header.panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+div.panel div.panel-items {
+    display: flex;
+    flex-direction: column;
+}
+
+div.panel div.panel-items div.panel-item {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    margin: 0 0.5rem;
+}
