@@ -19,6 +19,9 @@ div.container div.bem-vindo i {
 
 div.propaganda {
     margin-top: 15%;
+	
+	display: flex;
+	justify-content: center;
 }
 
 div.propaganda img {
