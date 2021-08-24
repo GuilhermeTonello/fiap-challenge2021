@@ -15,3 +15,30 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
+
+header nav {
+    background-color: var(--dark-blue);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav div.logo {
+    background-image: url('../assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    width: 50%;
+    height: 10vh;
+    margin: 0 auto;
+}
+
+header nav button {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
