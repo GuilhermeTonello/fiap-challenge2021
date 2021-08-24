@@ -1,0 +1,59 @@
+div.container {
+    margin: 2rem;
+}
+
+div.container div.bem-vindo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+
+div.container div.bem-vindo i {
+    font-size: 2rem;
+    background-color: var(--light-blue);
+    color: white;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+div.propaganda {
+    margin-top: 15%;
+}
+
+div.propaganda img {
+    max-width: 100%;
+}
+
+div.opcoes {
+    background-color: var(--light-blue);
+
+    height: 35vh;
+
+    margin-top: 30%;
+
+    display: grid;
+    grid-template: "div div";
+
+     border-radius: 35px;
+}
+
+div.opcao {
+    background-color: var(--dark-blue);
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 5rem;
+    height: 5rem;
+    margin: auto auto;
+
+    border-radius: 15px;
+}
+
+div.opcao i {
+    font-size: 2rem;
+}
