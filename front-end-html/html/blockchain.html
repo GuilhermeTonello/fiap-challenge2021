@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/blockchain.css">
     <link rel="stylesheet" href="../css/line-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
+	<script src="../scripts/ENV.js"></script>
     <script src="../scripts/map.js"></script>
     <title>Blockchain Map</title>
 </head>
@@ -32,8 +33,7 @@
             <div id="map"></div>
             <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
 
-            <script
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyFNhfXtWB3_Nwl_W3BAgz0su4IMlx-zk&callback=initMap&libraries=&v=weekly"
+            <script id="google-script"
               async
             ></script>
             <div class="veiculo-motorista">
