@@ -1,0 +1,85 @@
+body{
+    background-color: #F3F3F3;
+}
+
+#tracker-body{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    width: 100%;
+
+}
+
+.map-div{
+    background-color: #fff;
+    width: 90%;
+    margin-top:5%;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map-div section{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.map-div section img{
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+
+header nav {
+    background-color: var(--dark-blue);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav div.logo {
+    background-image: url('../assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    width: 50%;
+    height: 10vh;
+    margin: 0 auto;
+}
+
+header nav button {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#map{
+    width: 90%;
+    height: 20rem;
+    align-self: center;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+.veiculo-motorista{
+    display: flex;
+    flex-direction: row;
+    align-self:center;
+    width: 90%;
+    margin-bottom:1rem ;
+    justify-content: space-between;
+}
+
+/*Isso serve para DESABILITAR a função do usuario poder ver
+pelo satélite ou pelo mapa*/
+.gm-style-mtc {
+    display: none;
+  }
