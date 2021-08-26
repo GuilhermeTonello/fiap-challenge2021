@@ -1,3 +1,5 @@
+
+
 window.addEventListener('load', () => {
 	let js = document.getElementById('google-script');
 	js.setAttribute('src', `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap&libraries=&v=weekly`);
