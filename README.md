@@ -4,9 +4,9 @@ Repositório de códigos para ford challenge 2021
 # Instruções para os Devs
 
 ### Para baixar as novas atualizações:
-  1. Baixe as atualizações do repositório dando um `git pull`
+1. Baixe as atualizações do repositório dando um `git pull`
  
 ### Para enviar seu trabalho:
-  1 . De um `git add .` Para adicionar todas as pastas do seu computador no commit
-  2 . `git commit -m "mensagem do seu agrado aqui"`
-  3 . `git push origin` para jogar seu código no repo
+1 . De um `git add .` Para adicionar todas as pastas do seu computador no commit
+2 . `git commit -m "mensagem do seu agrado aqui"`
+3 . `git push origin` para jogar seu código no repo
