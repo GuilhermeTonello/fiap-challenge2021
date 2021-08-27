@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <!--NÃO COMPARTILHAR COM NINGUEM ESSE CÓDIGO, CONTEM A MINHA CHAVE DA GOOGLE CLOUD 
+  <!--NÃO COMPARTILHAR COM NINGUEM ESSE CÓDIGO, CONTEM A MINHA CHAVE DA GOOGLE CLOUD 
     E EU POSSO PAGAR POR USO INDEVIDO-->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/blockchain.css">
-    <link rel="stylesheet" href="../css/line-awesome.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-	<script src="../scripts/ENV.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/blockchain.css" />
+    <link rel="stylesheet" href="../css/line-awesome.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../scripts/ENV.js"></script>
     <script src="../scripts/map.js"></script>
     <title>Blockchain Map</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <header>
-            <nav>
-                <button>
-                    <i class="las la-bars"></i>
-                </button>
-                <div class="logo"></div>
-            </nav>
-        </header>
+      <header>
+        <nav>
+          <button>
+            <i class="las la-bars"></i>
+          </button>
+          <div class="logo"></div>
+        </nav>
+      </header>
     </nav>
     <div id="tracker-body">
-        <div class="map-div">
-            <section class="map-title">
-                <img src="../assets/link.png" width="30rem"/>
-                <h2>Blockchain Tracker</h2>
-            </section>
-            <div id="map"></div>
-            <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+      <div class="map-div">
+        <section>
+          <img src="../assets/link.png" width="30rem" alt="elo de corrente" />
+          <h2>Blockchain Tracker</h2>
+        </section>
+        <div id="map"></div>
+        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
 
-            <script id="google-script"
-              async
-            ></script>
-            <div class="veiculo-motorista">
-                <div class="veiculo">
-                    <h4>Modelo: CARRO A</h4>
-                    <h4>Placa: ABC-1234</h4>
-                </div>
-                <div class="veiculo">
-                    <h4>Motorista:</h4>
-                    <h4>John Doe</h4>
-                </div>
-               
-
-            </div>
+        <script id="google-script" async></script>
+        <div class="veiculo-motorista">
+          <div class="veiculo">
+            <h4><span>Veículo:</span> <br />Focus</h4>
+            <h4>ABC-1234</h4>
+          </div>
+          <div class="veiculo">
+            <h4><span>Motorista:</span></h4>
+            <h4>John Doe</h4>
+          </div>
         </div>
+      </div>
 
+      <div class="streets-div">
+        <section>
+          <h2>Caminho Percorrido</h2>
+        </section>
+        <section class="ruas">
+            <p>Rua A</p>
+            <p>Rua B</p>
+            <p>Avenida C</p>
+        </section>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

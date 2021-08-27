@@ -7,10 +7,12 @@ body{
     justify-content: center;
     align-content: flex-start;
     width: 100%;
+    flex-direction: column;
+    align-items: center;
 
 }
 
-.map-div{
+.map-div, .streets-div{
     background-color: #fff;
     width: 90%;
     margin-top:5%;
@@ -19,20 +21,21 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
-.map-div section{
+.map-div section, .streets-div section{
     margin-top: 2%;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
 }
 
+/* nao sei o que isso faz, vou comentar
 .map-div section img{
     object-fit: contain;
     margin-right: 1rem;
 }
-
+*/
 
 header nav {
     background-color: var(--dark-blue);
@@ -83,3 +86,22 @@ pelo satélite ou pelo mapa*/
 .gm-style-mtc {
     display: none;
   }
+
+span{
+    color:#C8C8C8;
+    font-weight: 300;
+}
+
+.veiculo h4{
+    font-weight: 200;
+}
+
+.ruas{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content:flex-start;
+    width: 90%;
+    font-size: large;
+    margin-bottom: 1rem;
+}
