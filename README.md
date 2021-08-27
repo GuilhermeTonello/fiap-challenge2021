@@ -2,9 +2,18 @@
 Repositório de códigos para ford challenge 2021
 
 # Instruções para os Devs
+Atenção: Se quiser usar a command line no **windows** use o git bash
+
+Baixe em:<br>
+https://git-scm.com/downloads
 
 ### Para baixar as novas atualizações:
-1. Baixe as atualizações do repositório dando um `git pull`
+
+#### Caso não tenha clonado o repositório ainda:
+ - Clone o repositorio com um `git clone url-do-repo`
+
+#### Caso ja tenha o repositório na sua máquina:
+- Baixe as atualizações do repositório dando um `git pull`
  
 ### Para enviar seu trabalho:
 1. De um `git add .` Para adicionar todas as pastas do seu computador no commit
