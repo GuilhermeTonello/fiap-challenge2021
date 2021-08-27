@@ -2,7 +2,7 @@
 Repositório de códigos para ford challenge 2021
 
 # Instruções para os Devs
-Atenção: Se quiser usar a command line do **windows** use o git bash
+Atenção: Se quiser usar a command line no **windows** use o git bash
 
 Baixe em:<br>
 https://git-scm.com/downloads
