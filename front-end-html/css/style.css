@@ -46,3 +46,33 @@ header nav button {
     margin-left: 1rem;
 }
 
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.active, .accordion li:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out !important;
+}
+
+#SC{
+    background-color: #eee !important;
+    padding: 0 !important;
+}
