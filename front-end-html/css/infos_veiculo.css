@@ -34,11 +34,14 @@
 }
 
 #seuCarro p{
-    text-align: left;
-    background-color: var(--gray);
+    text-align: center;
+    background-color: #ccc;
     padding: 1.25rem;
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
+    font-size:1rem;
+    color:black;
+    font-family: 'Roboto', sans-serif;
 }
 
 

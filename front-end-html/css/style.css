@@ -47,8 +47,8 @@ header nav button {
 }
 
 .accordion{
-    background-color: #eee;
-    color: #444;
+    background-color: #e6e6e6;;
+    color: #e6e6e6;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -61,7 +61,7 @@ header nav button {
 }
 
 .active, .accordion li:hover {
-    background-color: #ccc;
+    background-color: #e6e6e6;
 }
 
 .panel {
@@ -73,7 +73,7 @@ header nav button {
 }
 
 #SC{
-    background-color: #eee !important;
+    background-color: #e6e6e6 !important;
     padding: 0 !important;
 }
 
