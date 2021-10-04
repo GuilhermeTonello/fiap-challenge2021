@@ -1,3 +1,6 @@
+#Nosso projeto consiste em um aprimoramento do aplicativo Ford Pass, implementando soluções baseadas em Inteligência Artificial e Blockchain para entregar ao usuário a melhor experiência possível dentro do aplicativo.
+
+
 # fiap-challenge2021
 Repositório de códigos para ford challenge 2021
 
