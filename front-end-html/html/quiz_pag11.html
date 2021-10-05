@@ -32,14 +32,26 @@
       </svg>
       <h2>Qual carro da FORD deu Match com você ?</h2>
       <p>
-        Respondendo algumas perguntas, nós podemos te ajudar a achar qual o
-        melhor carro para o seu perfil.
+        Converse com o Henry Bot e descubra qual carro dá Match com você! <br>
+        Além de poder tirar dúvidas relacionadas a Ford Ranger
       </p>
-      <div class="opcao">
-        <span>...</span>
-        <button>Começar Quiz</button>
-      </div>
+
     </div>
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "3aa20cfc-8073-438d-8b40-73670f240231", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "c1a87d28-35ab-450b-9ce9-5bc47ef99e5a", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+          "/WatsonAssistantChatEntry.js"
+        document.head.appendChild(t);
+      });
+    </script>
   </body>
   <script src="../scripts/navbar.js"></script>
   <script src="../scripts/imagem-ia.js"></script>
