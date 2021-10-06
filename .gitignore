@@ -1,3 +1,4 @@
 ENV.js
 .DS_Store
 .vs/
+node_modules
