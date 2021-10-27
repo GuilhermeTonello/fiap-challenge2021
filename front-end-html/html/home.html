@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="../css/line-awesome.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/home.css" />
+
     <title>Ford Pass - Home</title>
   </head>
   <body>
-    <header>
-    </header>
+    <header></header>
 
     <div class="container">
       <div class="bem-vindo">
@@ -28,39 +28,69 @@
       </div>
 
       <div class="propaganda">
-        <img src="../assets/propaganda.jpg" alt="" />
+        <img src="../assets/ford-ranger.png" alt="" />
+      </div>
+      <p class="atl">Atualizado Há 5 minutos atrás</p>
+      <div class="titulo">
+        <h3>Nível de combustível</h3>
+      </div>
+      <div class="utilidades">
+        <div class="nivel">
+          <h3>100%</h3>
+        </div>
+
+        <div class="progress">
+          <div class="barOverflow">
+            <div class="bar"></div>
+          </div>
+        </div>
       </div>
 
-      <div class="opcoes">
-        <div class="opcao">
-          <a href="./infos_veiculo.html">
-            <i class="las la-car"></i>
-            <span>INFO</span>
-          </a>
+      <div class="titulo">
+        <h3>Odômetro</h3>
+      </div>
+      <div class="utilidades">
+        <div class="nivel">
+          <h3>40.000 <span>KM</span></h3>
         </div>
+      </div>
 
-        <div class="opcao">
+      <a href="./manutencao_predivita.html">
+        <div class="revisao">
+          <h3 class="pr">Próxima Revisão</h3>
+          <progress id="manutencao" value="90" max="100" color="white">
+            32%
+          </progress>
+        </div>
+      </a>
+
+      <div class="titulo">
+        <h3>Utilidades</h3>
+      </div>
+      <div class="opcoes">
+        <div class="card">
           <a href="./blockchain.html">
             <i class="las la-link"></i>
-            <span>TRACKER</span>
+            <span>Tracker</span>
           </a>
         </div>
 
-        <div class="opcao">
+        <div class="card">
+          <a href="./infos_veiculo.html">
+            <i class="las la-car"></i>
+            <span>Info</span>
+          </a>
+        </div>
+
+        <div class="card">
           <a href="./quiz_pag11.html">
             <i class="las la-comments"></i>
             <span>Henry Bot</span>
           </a>
         </div>
-
-        <div class="opcao">
-          <a href="#">
-            <i class="las la-cog"></i>
-            <span>OPÇÕES</span>
-          </a>
-        </div>
       </div>
     </div>
   </body>
+
   <script src="../scripts/navbar.js"></script>
 </html>
