@@ -30,19 +30,22 @@ function getTelemetryByVehicleId(id) {
 }
 
 function generateVehicleInfo(vehicleId) {
-    let vehicleInfoField = document.querySelector('div#container div#seuCarro div.panel ul');
     getVehicleById(vehicleId)
         .then(vehicleData => getPackageByPackageId(vehicleData.packageId)
             .then(packageData => getModelByModelId(packageData.modelId)
                 .then(modelData => getTelemetryByVehicleId(vehicleId)
                     .then(telemetryData => {
+                        let vehicleInfoField = document.querySelector('div#container div#seuCarro div.panel ul');
                         vehicleInfoField.insertAdjacentHTML('beforeend', `
                             <li>ID: ${vehicleData.id}</li>
                             <li>Modelo: ${modelData.descriptions.nameplate}</li>
-                            <li>KM rodados: ${telemetryData[0].odometer.value}</li>
+                            <li>KM rodados: ${telemetryData[0].odometer.value} km</li>
                             <li>Ano: ${packageData.modelYear}</li>
                             <li>Placa: ${vehicleData.plate}</li>
                         `);
+
+                        let paginaManutencaoLink = document.querySelector('div.interac a');
+                        paginaManutencaoLink.href= `./manutencao_predivita.html?vehicleId=${vehicleId}`;
                     })
                 )
             )
