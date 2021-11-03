@@ -35,7 +35,7 @@ function generateManutencaoPreditiva(vehicleId) {
                     if (predicao != 0) {
                         manutencaoTable.insertAdjacentHTML("beforeend", `
                             <div class="table-data">
-                                <p>${predicao}</p>
+                                <p>${predicao.startsWith('Trocar') ? predicao : 'Valor previsto: R$ ' + predicao}</p>
                             </div>
                         `);
                     }
