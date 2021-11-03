@@ -30,7 +30,6 @@ function generateManutencaoPreditiva(vehicleId) {
                     .replaceAll("'", '')
                     .split(',');
 
-                console.log(predicaoArray);
                 for (let predicao of predicaoArray) {
                     predicao = predicao.trim();
                     if (predicao != 0) {
